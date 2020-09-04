@@ -102,17 +102,44 @@ nav a {
     padding-bottom: 20px;  
 }
 
-.middle-content{
-    display: inline-block;
+
+
+.middle-content {
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 
 .middle-content div {
-    display: inline-block;
-    /* display:flex; */
-    width:50%;
-    /* flex-wrap: wrap; */
+    /* display:flex;
+    flex-wrap:wrap; */
     margin: 7% 0;
     border-bottom: 1px dashed black;
+    width: 45%;
+    margin-right: 4%;
+    padding:3% 0;
+}
+
+.middle-content img{
+    margin-bottom:2%;
+}
+
+.middle-content p{
+    margin:3% 0;
+}
+
+.middle-content a{
+    text-align: center;
+    color: black;
+    border: solid black;
+    border-radius: 10px;
+    padding:2% 7%;
+    text-decoration:none;
+}
+
+.middle-content a:hover{
+    color:white;
+    background-color:black;
 }
 
 .bottom-content {
