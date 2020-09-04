@@ -71,12 +71,31 @@ p {
     margin: 0 auto;
 }
 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:4%;
+    margin-right:8%;
+}
+
+
+nav a {
+    text-decoration: none;
+    display:flex;
+    align-items: flex-end;
+    color:black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-bottom:3%;
 }
 
 .top-content .text-container {
